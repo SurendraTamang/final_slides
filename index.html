@@ -4,15 +4,15 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
-
+		<title>Final Year Presentation</title>
+		
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/white.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
-
+		<link rel="stylesheet" href="css/style.css">
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
@@ -21,26 +21,243 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section> <h1>POWER FACTOR IMPROVEMENT USING FC-TCR</h1>
+				<section data-background="./img/img0.jpg">
+					<h3>POWER FACTOR IMPROVEMENT USING FC-TCR</h3>
 					<br>
-					<br>
-					<br>
-					<br>
-					<h4 class="fragment">PRESENTED BY:</h4>
+<div class="fragmentss">
+		Supervisor
+		<br>
+		Er. Rajendra Dhahal
+</div>
 					
-<ol class="fragment">						
-	<li>
-		Surendra Tamang(72BEL240)</li><li>Dhan Bahadur Khadka(72BEL208)</li>
-		<li>Vikram Yadav(72BEL246)</li><li>Yogesh karki(72BEL247)</li>
+					<br>
+					
+				<div class="fragmentss">
+					<span style="float: left;">Project Members</span>
+					<br>
+				
 		
+					
+					
+					
+					<span style="float: left;">Dhan Bahadur Khadka(072-BEL-208)</span> 
+				
+					
+					<br>
+					<span style="float: left;">Surendra Tamang(072-BEL-240)</span> 
+					
+					<br>
+					<span style="float: left;">Vijaya Sharma(072-BEL-245)</span>
+					<br>
+					<span style="float: left;">Yogesh Karki(072-BEL-247)</span>
+					<br>
+					August-9,2019
+				</div>
 
-</ol></section>
-				<section>Sencond Law of Motion 2</section>
-				<section> Hello wolrd!!</section>
+				
+										
+	</section>
+	<section>
+		
+			<h3>INTRODUCTION</h3>
+			
+			<div class="fragmentss">
+			
+		<ol>
+			<li>Power factor improvement techniques using FACTS controller
+			</li>
+			<li>Reactive power Compensation technique is used i.e static var compensator
+			</li>
+			<li>SVC is used for load compensation of fast changing loads
+			</li>
+			<li>Among TCR and TSC,TCR elements is used as SVC
+			</li>
+			<li>FC-TCR method for power factor correction 
+			</li>
+			<li>FC-TCR can be used for power factor correction, flicker reduction, steady-state voltage control, also filter out harmonics from the system
+			</li>
+		</ol>
+	</div>
+	</section>
+	<section>
+			<h3>OBJECTIVE</h3>
+			<div class="fragmentss">
+				<ol>
+					<li>To improve the power factor to enhance the power quality of a line
+					</li>
+					<li>To optimize the operation of SVC at domestic level. 
+					</li>
+					<li>To maintain the unity power factor of loads mainly inductive. </li>
+					<li>To know basically operating principle of FC-TCR type SVC.</li>
+				</ol>
+			</div>
+	</section>
+	<section>
+		<h3>Methodology</h3>
+		<div class="fragmentss">
+		<img src="/img/img3.jpg" alt="Block diagram">
+		<br>
+		Basic control diagram
+	</div>
+	</section>
+	<section>
+			Modelling of sources
+			<br>
+
+		<img src="./img/img4.jpg" alt="Modeming of sources
+		">
+	</section>
+	<section>
+			Modeling of firing angle converter
+			<br>
+			<img src="./img/img5.jpg" alt="Modeling of firing angle converter">
+	</section>
+	<section>
+			Modeling of FC-TCR
+<br>
+<img src="./img/img6.jpg" alt="Modeling of FC-TCR">
+	</section>
+	<section>
+			Modeling of load
+			<br>
+		<img src="./img/img7.jpg" alt="Modeling of load">
+
+	</section>
+	<section>
+			Algorithm
+			<br>
+			<ol>
+				<li>Measurement of initial reactive power consumed by load
+					</li>
+				<li>Comparison with reference reactive power  </li>
+				<li>Calculation of suitable firing angle with PI controller
+					<br>
+					<img src="./img/img8.jpg" alt="" height="150px" width="600px">
+				</li>
+				<li>  
+				
+					This signal is passed to firing pulse generator </li>
+				<li>Firing pulse generator produce the necessary current pulse for the thyristor to turn on</li>
+				<li>The reactor absorbs the reactive Power based on the varying fired thyristor angle</li>
+				
+			</ol>
+
+	</section>
+	<section>
+			Flowchart of overall methodology
+			<br>
+		<img src="./img/img9.jpg" alt="Flowchart of overall methodology">
+	</section>
+
+	<section>
+		Simulation output
+			<br>
+			<img src="./img/img10.jpg" alt="Flowchart of overall methodology">
+			</section>
+			<section>
+				Power factor without FC-TCR
+			<br>
+			<img src="./img/img14.jpg" alt="Flowchart of overall methodology">
+			</section>
+			<section>
+				Reactive Power supplied by Source
+			<br>
+			<img src="./img/img40.png" alt="Flowchart of overall methodology">
+			</section>
+			<section>
+				Reactive Power supplied by FC-TCR
+			<br>
+			<img src="./img/img41.png" alt="Flowchart of overall methodology">
+			</section>
+			<section>
+				Power factor with FC-TCR
+			<br>
+			<img src="./img/img13.jpg" alt="Flowchart of overall methodology">
+			</section>
+
+			<section>
+			 Reactive power generated by FC-TCR
+			<br>
+			<img src="./img/img11.jpg" alt="Flowchart of overall methodology">
+			</section>
+			<section>
+			Reactive power generated by source
+			<br>
+			<img src="./img/img12.jpg" alt="Flowchart of overall methodology">
+			</section>
+			
+			<section>
+				Case 1 : 7 KVAR Load
+				<br>
+				<img src="./img/img17.jpg" alt="Flowchart of overall methodology">
+				</section>
+				<section>
+				Case 2 : 10 KVAR Load
+				<br>
+				<img src="./img/img18.jpg" alt="Flowchart of overall methodology">
+				</section>
+				<section>
+				Case 3 : 9 KVAR Load
+				<br>
+				<img src="./img/img19.jpg" alt="Flowchart of overall methodology">
+				</section>
+			<section>
+				Proteus simulation with FC-TCR
+			<br>
+			<img src="./img/img15.jpg" height="400px" alt="Flowchart of overall methodology">
+			</section>
+			<section>
+				Proteus simulation without FC-TCR
+			<br>
+			<img src="./img/img16.jpg"  height="400px" alt="Flowchart of overall methodology">
+			</section>
+			<section>
+				Limitations
+		<br>
+		<ol>
+			<li>Our project only deals with inductive loads</li>
+			<li>Chances of misfiring of tcr which requires extra tsc circuits and control mechanism would be complex
+			</li>
+		</ol>
+
+			</section>
+			<section>
+				Future scopes
+<br>
+can be used for controlling of reactive power for leading loads
+			</section>
+<section>
+	Conclusion
+	<ul>
+		<li>Variation of reactive power with firing angle was studied
+		</li>
+		<li>Reactive power consumed by inductive loads was compensated by FCTCR
+		</li>
+		<li>Power factor was improved continuously for dynamic loads
+			Approximately to unity.
+			
+			</li>
+	</ul>
+</section>
+<section>
+	Reference
+	<br>
+	<ol>
+		<li>Shobha R. Mane,Ashwini Kolekar “Arduino based power factor correction”International journal of electrical,electronics and data communication ISSN:2084 issued on 4 april 2016</li>
+		<li> Dhurvang R. Gaikwad, C R Mehta “Automatic reactive power control using FC-TCR”Internation journal of advance computer research ISSN:22497277,volume-4,no-2,15june 2014</li>
+		<li>Jitendra Kumar dash “Control statergy for reactive power using using FC-TCR by MATLAB simulink” I.J.EEE, volume-2, E-ISSN: 2310.Issed on 4 august 2015. 
+		</li>
+		<li>G. Premkumar and B. Muthukumar “ Design, fabrication and implementation of microcontroller controlled SVC” Internation journal of computer application, (0975-8887) volume-81, 19 November 2013</li>
+		<li>Sumit k rathod ,Chintan Patel “Simulation and implementation of FC-TCR.” International journal of innovation research in advanced engineering, ISSN no- 2349-2163 volume-1, issued date-4 may 2014. 
+		</li>
+	</ol>
+</section>
+			
 			</div>
 		</div>
 
